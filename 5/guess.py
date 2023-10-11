@@ -9,6 +9,9 @@ print('Hello, ' + name + ', I am thinking of a number between 1 and 20')
 #creates a new variable called secret number. you call the modules function `randint` and specify the range
 secretNumber = random.randint(1, 20)
 
+#to troubleshoot you can add this line
+#print('DEBUG: Secret number is ' + str(secretNumber))
+
 #create a for loop
 for guessesTaken in range(1, 7):
     print('Take a guess.')
