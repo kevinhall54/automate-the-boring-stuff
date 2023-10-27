@@ -6,7 +6,7 @@ myCat = {'size': 'fat', 'color': 'spotted', 'disposition': 'loud'}
 
 #you can access the values through the keys
 
-myCat[size] #this will give you the value of whatever in the key size
+myCat['size'] #this will give you the value of whatever in the key size
 
 'my cat has ' + myCat['color'] + ' fur'
 
